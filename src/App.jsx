@@ -11,7 +11,7 @@ function App() {
     <>
       <Home/>
       <SectionOne/>
-      {/* <SectionTwo/> */}
+      <SectionTwo/>
       
     </>
   )

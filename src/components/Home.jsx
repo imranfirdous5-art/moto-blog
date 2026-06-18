@@ -6,6 +6,10 @@ import logo from "../assets/images/logo.png"
 import { FaFacebookF, FaInstagram, FaYoutube, } from "react-icons/fa";
 
 const Home = () => {
+
+    const liStyle = "border border-transparent px-3 py-1 hover:border-t-white hover:border-b-white rounded-2xl transition-all duration-300 cursor-pointer";
+    const headingStyle = "relative hidden md:block top-35 left-0 z-40 lg:text-3xl lg:flex lg:justify-center lg:text-center md:justify-center md:text-center md:text-2xl md:top-26 lg:top-35 text-white";
+
     return(
         <>
             {/* header-section */}
@@ -19,12 +23,12 @@ const Home = () => {
                     </div>
                     <nav className="w-full mt-2 md:w-110 lg:w-170 md:mb-5 lg:mb-5">
                         <ul className="flex flex-wrap justify-center md:flex-row text-white uppercase text-[12px] md:text-[10px] lg:text-[13px] lg:gap-5">
-                            <li className="border border-transparent px-3 py-1 hover:border-t-white hover:border-b-white rounded-2xl transition-all duration-300 cursor-pointer">home</li>
-                            <li className="border border-transparent px-3 py-1 hover:border-t-white hover:border-b-white rounded-2xl transition-all duration-300 cursor-pointer">destinations</li>
-                            <li className="border border-transparent px-3 py-1 hover:border-t-white hover:border-b-white rounded-2xl transition-all duration-300 cursor-pointer">rental</li>
-                            <li className="border border-transparent px-3 py-1 hover:border-t-white hover:border-b-white rounded-2xl transition-all duration-300 cursor-pointer">motorcycles</li>
-                            <li className="border border-transparent px-3 py-1 hover:border-t-white hover:border-b-white rounded-2xl transition-all duration-300 cursor-pointer">blog</li>
-                            <li className="border border-transparent px-3 py-1 hover:border-t-white hover:border-b-white rounded-2xl transition-all duration-300 cursor-pointer">contact</li>
+                            <li className={liStyle}>home</li>
+                            <li className={liStyle}>destinations</li>
+                            <li className={liStyle}>rental</li>
+                            <li className={liStyle}>motorcycles</li>
+                            <li className={liStyle}>blog</li>
+                            <li className={liStyle}>contact</li>
                         </ul>
                     </nav>
 
@@ -37,7 +41,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="relative hidden md:block top-35 left-0 z-40 lg:text-3xl lg:flex lg:justify-center lg:text-center md:justify-center md:text-center md:text-2xl md:top-26 lg:top-35 text-white">
+                <div className={headingStyle}>
                     <h1>2500 tours in over 1000 destinations and 36 <br /> years of experience!</h1>
                 </div>
 
