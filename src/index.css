@@ -1,8 +1,25 @@
 /* tailwind css */
 @import "tailwindcss";
 
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+
+
 /* google-fonts */
-.poppins-thin {
+/* .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -108,7 +125,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: italic;
-}
+} */
 
 
 

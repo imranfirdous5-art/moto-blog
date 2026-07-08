@@ -2,7 +2,7 @@
 import './index.css'
 import Home from './components/Home'
 import SectionOne from './components/SectionOne'
-import SectionTwo from './components/SectionTow'
+import SectionTwo from './components/SectionTwo'
 
 function App() {
   
