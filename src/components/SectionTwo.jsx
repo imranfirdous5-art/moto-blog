@@ -7,15 +7,15 @@ import bike2 from "../assets/images/bike2.png"
 const SectionTwo = () => {
     return(
         <>
-            <div className="grid grid-rows-2 md:grid-cols-2 justify-items-center mt-10 lg:mt-20 relative">
-                <div className="w-full bg-red-700 text-white flex flex-col justify-center items-center">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 justify-items-center mt-10 lg:mt-20 relative">
+                <div className="w-full bg-red-700 text-white flex flex-col justify-center items-center p-5 md:pt-10 lg:pb-10">
                     <h3 className="text-3xl uppercase font-bold">we are world wide</h3>
-                    <p className="text-sm mt-5 h-60 overflow-scroll lg:overflow-visible px-10 lg:px-20">
+                    <p className="text-sm mt-5 h-60 overflow-scroll lg:overflow-visible px-5 lg:px-10 text-center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, in adipisci sequi in adipisci sequi adipisci sequi in adipisci sequi Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eligendi, illo praesentium omnis soluta quibusdam dolorem quis odio nihil veniam dolorum saepe cumque aut, minima quos repellat fugiat tenetur distinctio eos rem ad iure accusamus autem modi. Necessitatibus tempore dicta nemo, sed magnam dolores? Eius inventore earum quo dicta accusantium? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum excepturi impedit consequuntur facilis repellat ipsam ab odio adipisci minus alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nulla nisi. Itaque quis iste quod assumenda omnis veniam earum illo iusto, atque, hic, magnam eligendi delectus obcaecati recusandae tempore culpa.
                     </p>
                 </div>
 
-                <div className="absolute bottom-85 hidden lg:block"><img src={bike2} alt="bike2" className="w-48 animate-float" /></div>
+                <div className="absolute hidden lg:block -bottom-5"><img src={bike2} alt="bike2" className="w-48 animate-float" /></div>
 
                 <div className="w-full flex flex-col items-center py-5 gap-5">
                     <div className="flex flex-row w-90 p-2 rounded-2xl bg-red-50 hover:scale-105 transition-all duration-300 cursor-pointer">

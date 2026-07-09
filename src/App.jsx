@@ -3,6 +3,8 @@ import './index.css'
 import Home from './components/Home'
 import SectionOne from './components/SectionOne'
 import SectionTwo from './components/SectionTwo'
+import SectionThree from './components/SectionThree'
+import SectionFour from './components/SectionFour'
 
 function App() {
   
@@ -12,6 +14,8 @@ function App() {
       <Home/>
       <SectionOne/>
       <SectionTwo/>
+      <SectionThree/>
+      <SectionFour/>
       
     </>
   )

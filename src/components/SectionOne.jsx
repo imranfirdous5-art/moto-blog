@@ -14,7 +14,7 @@ const SectionOne = () => {
                 <div className="w-full max-w-96 relative">
                     <div>
                         {/* <img src={pic1} alt="pic1" className="object-cover w-full"/> */}
-                        <iframe src="https://www.youtube.com/embed/tHCEFssGPxQ?autoplay=1&mute=1" frameborder="0" allow="autoplay" allowFullScreen width='100%' height='370'></iframe>
+                        <iframe src="https://www.youtube.com/embed/tHCEFssGPxQ?autoplay=1&mute=1&loop=1&playlist=tHCEFssGPxQ" frameborder="0" allow="autoplay" allowFullScreen width='100%' height='370'></iframe>
                     </div>
                         
                     <div>
@@ -30,7 +30,7 @@ const SectionOne = () => {
                 <div className="w-full max-w-96 relative">
                     <div>
                         {/* <img src={pic2} alt="pic1" className="object-cover w-full" /> */}
-                        <iframe src="https://www.youtube.com/embed/fLfTG3vFsLw?autoplay=1&mute=1" frameborder="0" allow="autoplay" allowFullScreen width='100%' height='370'></iframe>
+                        <iframe src="https://www.youtube.com/embed/fLfTG3vFsLw?autoplay=1&mute=1&loop=1&playlist=fLfTG3vFsLw" frameborder="0" allow="autoplay" allowFullScreen width='100%' height='370'></iframe>
                     </div>
                     <div><img src={smallangle} alt="smallangle" className="w-30 absolute top-63 right-69" />
                         <p className="text-white absolute top-74 left-3 text-[13px] uppercase">$ <span className="text-4xl font-bold">100</span> <br /> per person</p>
@@ -44,7 +44,7 @@ const SectionOne = () => {
                 <div className="w-full max-w-96 relative">
                     <div>
                         {/* <img src={pic3} alt="pic1" className="object-cover w-full" /> */}
-                        <iframe src="https://www.youtube.com/embed/dG9wkMgcgkw?autoplay=1&mute=1" frameborder="0" allow="autoplay" allowFullScreen width='100%' height='370'></iframe>
+                        <iframe src="https://www.youtube.com/embed/dG9wkMgcgkw?autoplay=1&mute=1&loop=1&playlist=dG9wkMgcgkw" frameborder="0" allow="autoplay" allowFullScreen width='100%' height='370'></iframe>
                     </div>
                     <div><img src={smallangle} alt="smallangle" className="w-30 absolute top-63 right-69" />
                         <p className="text-white absolute top-74 left-3 text-[13px] uppercase">$ <span className="text-4xl font-bold">100</span> <br /> per person</p>
