@@ -13,8 +13,7 @@ const SectionThree = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center p-5 gap-3">
                     <div className="flex flex-col items-center md:justify-center">
                         <div className="flex flex-row items-center gap-3">
-                            <img src={client} alt="client" className="border-2 border-red-500 rounded-full w-20
-                            " />
+                            <img src={client} alt="client" className="border-2 border-red-500 rounded-full w-20" />
                             <p className="uppercase text-sm"><span className="text-red-600
                             font-bold text-2xl">john smith</span> <br /> solo traveller</p>    
                         </div>
