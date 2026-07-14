@@ -5,7 +5,7 @@ import bike3 from "../assets/images/bike3.png"
 const SectionFour = () => {
     return(
         <>
-            <div className="relative flex justify-center mt-5 lg:mt-0">
+            <div className="relative flex justify-center mt-5 lg:mt-0 pb-215 md:pb-0">
                 <img src={worldmap} alt="worldmap" className="w-full hidden md:block lg:block" />
                 
                 <div className="absolute top-0 text-black md:text-white lg:text-white flex flex-col justify-center items-center p-4 lg:w-4xl lg:mt-20 md:mt-5 bg-red-50 md:bg-transparent lg:bg-transparent">
@@ -13,7 +13,7 @@ const SectionFour = () => {
                 <p className="text-sm text-center mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis labore delectus corrupti, soluta tempora fuga eligendi eius asperiores alias? Similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, ea!</p>
                 </div>
 
-                <div className="absolute top-50 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 text-black md:text-white lg:text-white lg:w-full md:mt-0 bg-red-50 md:bg-transparent lg:bg-transparent lg:mt-20">
+                <div className="absolute top-50 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 text-black md:text-white lg:text-white lg:w-full md:-mt-5 bg-red-50 md:bg-transparent lg:bg-transparent lg:mt-20">
                     <div className="py-2 px-5 lg:py-25 lg:px-20 lg:bg-red-500/50">
                         <div className="flex flex-col items-center text-center">
                             <div className="flex flex-row gap-15 mb-3">
