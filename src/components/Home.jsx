@@ -4,6 +4,8 @@ import redblock from "../assets/images/redblock.png"
 import bike from "../assets/images/bike.png"
 import logo from "../assets/images/logo.png"
 import { FaFacebookF, FaInstagram, FaYoutube, } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 
 const Home = () => {
 
@@ -17,7 +19,7 @@ const Home = () => {
                 <div className="absolute top-0 left-0 z-50 flex flex-col md:flex-row items-center justify-between
                  w-full px-5 pt-10 border">
                     <div className="uppercase flex flex-col items-center relative text-white">
-                        <img src={logo} alt="logo" className="w-8 h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 absolute md:bottom-6.5  bottom-6.5 left-12 lg:bottom-8 lg:left-17" />
+                        <img src={logo} alt="logo" className="w-8 h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 absolute md:bottom-6.5  bottom-6.5 left-12 lg:bottom-6 lg:left-12" />
                         <p className="font-bold text-[13px] leading-3">endless <span className="text-red-500">ride</span></p>
                         <p className="text-[10px]">tagline here</p>
                     </div>
@@ -39,6 +41,11 @@ const Home = () => {
                         <a href="https://www.youtube.com/" target="blank" rel="noopener noreferrer" className="text-white p-1 border border-transparent  hover:border-white hover:rounded-full transition-all duration-500">
                         <FaYoutube /></a>
                     </div>
+                    
+
+                    <nav>
+                        <Link to="/SignUp">SignUp</Link>
+                    </nav>
                 </div>
 
                 <div className={headingStyle}>
