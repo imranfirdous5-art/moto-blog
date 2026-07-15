@@ -42,10 +42,14 @@ const Home = () => {
                         <FaYoutube /></a>
                     </div>
                     
-
-                    <nav>
+                    <div className="w-15 md:w-15 lg:w-32 lg:mb-4 flex justify-end text-white ml-80 md:ml-0">
+                    <nav className="w-15 md:gap-1 lg:w-32 lg:gap-2 flex flex-col text-center lg:flex-row">
                         <Link to="/SignUp">SignUp</Link>
+                        <p className="border border-b-white lg:hidden mt-1"></p>
+                        <p className="hidden lg:block">/</p>
+                        <Link to="/SignUp">Login</Link>
                     </nav>
+                    </div>
                 </div>
 
                 <div className={headingStyle}>
